@@ -36,6 +36,9 @@ public class ReverseAString {
           // print the array
 
         System.out.println(Arrays.toString(userWordArray));
+		
+		// print the reversed joined string
+		System.out.println(String.copyValueOf(userWordArray));
 
     }
 }
