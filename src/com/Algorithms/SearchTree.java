@@ -19,3 +19,14 @@ public class SearchTree {
 
     }
 }
+
+// Class to store a graph edge
+class Edge {
+int source, dest ;
+
+public Edge(int source, int dest){
+    this.source = source ;
+    this.dest = dest ;
+    }
+
+ }
