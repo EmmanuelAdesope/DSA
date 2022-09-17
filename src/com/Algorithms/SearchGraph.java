@@ -3,9 +3,9 @@ package com.Algorithms;
 import java.util.*;
 
 /*
-This program searches for a node at any depth p in a time in the order of P
+This program searches for a node at a depth P(starting at the root) at in a time in the order of P
  */
-public class SearchTree {
+public class SearchGraph {
 
     public static void main(String[] args) {
 
@@ -57,14 +57,13 @@ public class SearchTree {
 
         // loop till queue is empty
         while (!deque.isEmpty()) {
-            // dequeue front node and print it
+            // dequeue front node
             v = deque.poll();
-            System.out.println( v + " ");
 
             // do for every edge (v, u)
             for (int u : graph.adjList.get(v)) {
                 if (u == key) {
-                    System.out.println(key + "is present");
+                    System.out.println(key + " is present");
                     return;
 
                 }
