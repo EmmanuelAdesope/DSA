@@ -19,7 +19,7 @@ public class SearchTree {
 
             // total number of nodes in the graph (labelled from 0 to 14)
             int n = 15;
-
+            int key = 7;
             // build a graph from the given edges
             Graph graph = new Graph(edges, n);
 
@@ -30,10 +30,13 @@ public class SearchTree {
             // cover all connected components of a graph
             for (int i = 0; i < n; i++)
             {
+                if (i == key){
+                  break;
+                }
                 if (!discovered[i])
                 {
                     // start BFS traversal from vertex `i`
-                    BFS(graph, i, discovered,7);
+                    BFS(graph, i, discovered,key);
                 }
             }
         }
@@ -62,7 +65,8 @@ public class SearchTree {
             for (int u : graph.adjList.get(v)) {
                 if (u == key) {
                     System.out.println(key + "is present");
-                    break;
+                    return;
+
                 }
 
                 if (!discovered[u]) {
@@ -72,7 +76,6 @@ public class SearchTree {
                 }
             }
         }
-
 
     }
 
