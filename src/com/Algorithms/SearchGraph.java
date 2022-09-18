@@ -4,6 +4,7 @@ import java.util.*;
 
 /*
 This program searches for a node at a depth P(starting at the root) at in a time in the order of P
+
  */
 public class SearchGraph {
 
@@ -30,6 +31,7 @@ public class SearchGraph {
             // cover all connected components of a graph
             for (int i = 0; i < n; i++)
             {
+               // if node is found, stop the loop
                 if (i == key){
                   break;
                 }
