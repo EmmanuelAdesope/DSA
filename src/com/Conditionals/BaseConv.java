@@ -19,7 +19,7 @@ public class BaseConv {
 
             if ( i>k && k < 10)
             {
-                long m = 0 ;
+                long m ;
                 long n  ;
                 String base = " ";
                 while (i/k !=0)
@@ -39,8 +39,8 @@ public class BaseConv {
             }
             else  if(i>k && k >10)
             {
-                long m = 0 ;
-                long n = 0 ;
+                long m ;
+                long n ;
                 String base = " ";
                 while (i/k !=0)
                 {  m = i/k;
