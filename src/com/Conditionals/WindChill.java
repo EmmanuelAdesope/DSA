@@ -12,7 +12,7 @@ public class WindChill {
         double temp = input.nextDouble();
         if ( Math.abs(temp) > 50) {
             //Throws exception message and prompts user for input
-            System.out.printf("Valid range of temperature must be less than 50 in absolute values\n Enter value for temperature in Fahrenheit\n");
+            System.out.print("Valid range of temperature must be less than 50 in absolute values\n Enter value for temperature in Fahrenheit\n");
 
          temp = input.nextDouble();
         }
@@ -21,7 +21,7 @@ public class WindChill {
         double v = input.nextDouble();
         if (v < 3 || v > 120) {
             // throws exception message and prompts user to re-enter value for wind speed
-            System.out.printf("Acceptable values for wind speed: 3<v<120\n Please Enter Value\n");
+            System.out.print("Acceptable values for wind speed: 3<v<120\n Please Enter Value\n");
             v = input.nextDouble();
         }
 
