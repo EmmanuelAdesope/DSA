@@ -1,5 +1,6 @@
 package com.Conditionals;
-
+/* This program prints integers from 1000 to 2000 with five integers per line
+* */
 public class PrintInteger {
     public static void main(String[] args) {
 
