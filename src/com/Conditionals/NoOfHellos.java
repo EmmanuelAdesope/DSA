@@ -13,19 +13,20 @@ public class NoOfHellos {
 
         int num = input.nextInt();
 
-        if (num>1000) {
+        if (num > 1000) {
             System.out.print("The maximum lines of Hellos that can be printed is 1000\n please re-enter value\n");
 
-             num = input.nextInt();
+            num = input.nextInt();
         }
-         for ( int i = 1; i <= num ; i++){
 
-             if (i%1000 ==1) System.out.println(i + "st hello");
-             else if (i%1000 ==2) System.out.println(i+"nd hello");
-             else if (i%1000 == 3) System.out.println(i+ "rd hello");
-             else if (i % 1000> 3) System.out.println(i+ "th hello");
-         }
+            for (int i = 1; i <= num; i++) {
+
+                if (i % 10 == 1) System.out.println(i + "st hello");
+                else if (i % 10 == 2) System.out.println(i + "nd hello");
+                else if (i % 10 == 3) System.out.println(i + "rd hello");
+                else if (i % 10 > 3 || i % 10 ==0) System.out.println(i + "th hello");
+            }
+
 
     }
-
 }
