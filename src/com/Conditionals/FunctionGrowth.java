@@ -8,7 +8,7 @@ public class FunctionGrowth {
         int N = 16;
          while(N<=2048){
 
-             System.out.printf("%.2f\t  %d\t %.2f\t %d\t %d\t %.2f\t\n", Math.log(N), N , N*Math.log(N) , N*N , N*N*N , Math.pow(2.0,N));
+             System.out.printf("%.2f\t\t  %d\t\t %.2f\t\t %d\t\t %d\t\t %.2f\t\t\n", Math.log(N), N , N*Math.log(N) , N*N , N*N*N , Math.pow(2.0,N));
 
             N *=2;
 
