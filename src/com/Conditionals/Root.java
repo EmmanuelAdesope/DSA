@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Root {
     public static void main(String[] args) {
 
-        System.out.println("This program calculates the kth root of an integer N");
+        System.out.println("This program calculates the kth root of any integer N");
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the integer N, the number which kth root you want to solve");
