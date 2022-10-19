@@ -11,7 +11,7 @@ public class Checksum {
         Scanner input = new Scanner(System.in); // creates new instance of the scanner class
 
         System.out.println("Enter the 9 digit integer values");
-
+           // User inputs the digits(integers)
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
