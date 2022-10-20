@@ -10,11 +10,11 @@ public class Factors {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter number N");
-        long N = input.nextLong();
-       // long n = N;
+        long N = input.nextLong();           //User inputs integer
+
         for (long i = 2; i<=N/i; i++)
-        { // Test whether i is a factor.
-            if (N % i == 0)System.out.print(i+" ");
+        {
+            if (N % i == 0)System.out.print(i+" ");  // Test whether i is a factor.
             while(N %i ==0){
                 N /=i ;
             }
