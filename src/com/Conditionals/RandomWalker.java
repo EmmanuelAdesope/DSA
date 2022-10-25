@@ -16,25 +16,25 @@ public class RandomWalker {
 
         System.out.println("Enter Length of Square N");
         long N = input.nextLong();
+        double random;
 
-         double b = 0.0;
-         long startTime = System.nanoTime();
-        while ( Math.abs(x)!=N && Math.abs(y)!=N){  // loop stops if one particle touches either of the boundaries
+       long startTime = System.nanoTime();
+        while ( Math.abs(x) != N && Math.abs(y)!=N){  // loop stops if one particle touches either of the boundaries
+              random = Math.random();
 
-            if(Math.random()<0.25){    // Each step of the particle must be in a probability of 1/4
-            x = Math.round(2* N * Math.random() - N);
-            y = Math.round(2 * N * Math.random() -N);
-           }
-            System.out.printf("%.2f %.2f\n", x , y);  // gives an output trace of the points
-            b = Math.sqrt(( x*x + y*y));
+            // Each step of the particle must be in a probability of 1/4
+              if(random<0.25)  x++;
+            else if(random<0.50)  x--;
+            else if (random<0.75) y++;
+            else if (random<1) y--;
+
+            System.out.printf(" %s %.2f %s %s %.2f %s\n", "(", x ,")", "(", y ,")");  // gives an output trace of the points
+
         }
 
-        long endTime = System.nanoTime();
+       long endTime = System.nanoTime();
 
-        System.out.printf("%s %.2f\n","The distance of the point to the starting point is ", b);  // prints the output for b (the distance)
-
-        long timeTaken = endTime - startTime;
-
+       long timeTaken = endTime - startTime;
         System.out.printf("%s %.3f","Time Taken for random walk in seconds is  ", timeTaken/1e9);
     }
 }
