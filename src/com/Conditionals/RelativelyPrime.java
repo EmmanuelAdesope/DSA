@@ -18,7 +18,8 @@ public class RelativelyPrime {
             for (long j = 1; j<=N; j++){
 
                   rem= i % j ;
-                  if( rem == 0) System.out.print("   ");
+                  if (rem == 0) System.out.print("   ");
+                  if( rem == 0 && j ==1) System.out.print("  * ");
                   else{
                 while( rem !=0){
                     if (rem  == 1){
