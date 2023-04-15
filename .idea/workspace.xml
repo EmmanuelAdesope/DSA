@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c17ccd16-fc8b-40e8-bb6a-fa67a68d87ea" name="Changes" comment="ThreeSort.java modified">
-      <change afterPath="$PROJECT_DIR$/src/com/Conditionals/ReverseAString.java" afterDir="false" />
+    <list default="true" id="c17ccd16-fc8b-40e8-bb6a-fa67a68d87ea" name="Changes" comment="EuclideanDistance.java added&#10;Reverse.java added">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Deal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/ReverseAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/ReverseAString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,16 +38,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/Dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseAString">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Input.HelloWorld" />
+  <component name="RunManager" selected="Application.Deal">
+    <configuration name="ArrayCompile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.ArrayCompile" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Input.*" />
+          <option name="PATTERN" value="com.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,8 +58,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Conditionals.ReverseAString" />
+    <configuration name="Deal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Deal" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EuclideanDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.EuclideanDistance" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Reverse" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Root" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Conditionals.Root" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -62,24 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ThreeSort.ThreeSort" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ThreeSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseAString" />
-        <item itemvalue="Application.ThreeSort" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Deal" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.EuclideanDistance" />
+        <item itemvalue="Application.ArrayCompile" />
+        <item itemvalue="Application.Root" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +136,294 @@
       <option name="project" value="LOCAL" />
       <updated>1661009880274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ReverseAString.java Added">
+      <created>1661116280552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661116280552</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SearchTree.java modified">
+      <created>1663016913537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663016913537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SearchTree.java modified">
+      <created>1663104154385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663104154385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="SearchTree.java modified">
+      <created>1663275148725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663275148725</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SearchTree.java modified">
+      <created>1663362224711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663362224711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SearchTree.java modified">
+      <created>1663413299136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663413299136</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SearchTree.java renamed to SearchGraph.java">
+      <created>1663426023219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663426023219</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SearchGraph.java modified">
+      <created>1663534282327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663534282327</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FiniteSum.java added&#10;PowersOfTwo.java added">
+      <created>1663793476721</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663793476721</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FiniteProduct.java added&#10;FunctionTables.java added">
+      <created>1663879971635</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663879971635</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BaseConv.java added">
+      <created>1663965382244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663965382244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="BaseConv.java modified">
+      <created>1663965585106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663965585106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="BaseConv.java modified">
+      <created>1663966700869</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663966700869</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ruler.java modified">
+      <created>1664398443739</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664398443739</updated>
+    </task>
+    <task id="LOCAL-00016" summary="WindChill.java added">
+      <created>1664482172349</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664482172349</updated>
+    </task>
+    <task id="LOCAL-00017" summary="WindChill.java added">
+      <created>1664631017413</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664631017413</updated>
+    </task>
+    <task id="LOCAL-00018" summary="NoOfHellos.java added">
+      <created>1664740652813</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664740652813</updated>
+    </task>
+    <task id="LOCAL-00019" summary="PrintInteger.java added">
+      <created>1664829330422</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664829330422</updated>
+    </task>
+    <task id="LOCAL-00020" summary="PrintInteger.java modified">
+      <created>1664830355940</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664830355940</updated>
+    </task>
+    <task id="LOCAL-00021" summary="AveCalc.java modified&#10;NoOfHellos.java modified">
+      <created>1665000586193</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665000586193</updated>
+    </task>
+    <task id="LOCAL-00022" summary="FunctionGrowth.java added">
+      <created>1665003722167</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665003722167</updated>
+    </task>
+    <task id="LOCAL-00023" summary="FunctionGrowth.java modified">
+      <created>1665085318953</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665085318953</updated>
+    </task>
+    <task id="LOCAL-00024" summary="CodeMN.java modified&#10;PowersOfTwo.java modified">
+      <created>1665172930748</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665172930748</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Root.java modified">
+      <created>1665349449783</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665349449783</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Root.java modified">
+      <created>1665401533842</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665401533842</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Binary.java added&#10;Gambler.java added&#10;GamblerPlot.java added">
+      <created>1665581539375</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665581539375</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Factors.java added">
+      <created>1665754888470</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665754888470</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Factors2.java modified&#10;Checkerboard.java added">
+      <created>1665952465358</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665952465358</updated>
+    </task>
+    <task id="LOCAL-00030" summary="GCD.java added">
+      <created>1665990219140</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665990219142</updated>
+    </task>
+    <task id="LOCAL-00031" summary="RelativelyPrime.java added">
+      <created>1666015340314</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666015340314</updated>
+    </task>
+    <task id="LOCAL-00032" summary="PowersOfK.java added&#10;Ramanujan.java added&#10;RandomPointOnaSphere.java added">
+      <created>1666101485356</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666101485356</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Checksum.java added">
+      <created>1666170355150</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666170355150</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Checksum.java modified">
+      <created>1666179479692</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1666179479692</updated>
+    </task>
+    <task id="LOCAL-00035" summary="CountingPrimes.java modified&#10;CountingPrimeTwo.java added">
+      <created>1666302735981</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666302735981</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Factors.java modified">
+      <created>1666303049570</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666303049570</updated>
+    </task>
+    <task id="LOCAL-00037" summary="FactorsTwo.java modified">
+      <created>1666304187779</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666304187779</updated>
+    </task>
+    <task id="LOCAL-00038" summary="RandomWalker.java added">
+      <created>1666469806060</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666469806060</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Cos.java added&#10;Sin.java added">
+      <created>1666634465316</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666634465317</updated>
+    </task>
+    <task id="LOCAL-00040" summary="RandomWalker.java added&#10;RandomWalkers.java added&#10;RandomWalkerTwo.java  added&#10;BandMatrix.java added&#10;GeneralizedHarmonic.java added">
+      <created>1666715388541</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666715388541</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ArrayCompile.java added&#10;ArrayInit.java added&#10;BooleanProduct.java  added&#10;CouponCollector.java added">
+      <created>1680959576329</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680959576329</updated>
+    </task>
+    <task id="LOCAL-00042" summary="EuclideanDistance.java added&#10;Reverse.java added">
+      <created>1680965340953</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1680965340953</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,8 +438,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ThreeSort.java modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreeSort.java modified" />
+    <MESSAGE value="WindChill.java added" />
+    <MESSAGE value="NoOfHellos.java added" />
+    <MESSAGE value="PrintInteger.java added" />
+    <MESSAGE value="PrintInteger.java modified" />
+    <MESSAGE value="AveCalc.java modified&#10;NoOfHellos.java modified" />
+    <MESSAGE value="FunctionGrowth.java added" />
+    <MESSAGE value="FunctionGrowth.java modified" />
+    <MESSAGE value="CodeMN.java modified&#10;PowersOfTwo.java modified" />
+    <MESSAGE value="Root.java modified" />
+    <MESSAGE value="Binary.java added&#10;Gambler.java added&#10;GamblerPlot.java added" />
+    <MESSAGE value="Factors.java added" />
+    <MESSAGE value="Factors2.java modified&#10;Checkerboard.java added" />
+    <MESSAGE value="GCD.java added" />
+    <MESSAGE value="RelativelyPrime.java added" />
+    <MESSAGE value="PowersOfK.java added&#10;Ramanujan.java added&#10;RandomPointOnaSphere.java added" />
+    <MESSAGE value="Checksum.java added" />
+    <MESSAGE value="Checksum.java modified" />
+    <MESSAGE value="CountingPrimes.java modified&#10;CountingPrimeTwo.java added" />
+    <MESSAGE value="Factors.java modified" />
+    <MESSAGE value="FactorsTwo.java modified" />
+    <MESSAGE value="RandomWalker.java added" />
+    <MESSAGE value="Cos.java added&#10;Sin.java added" />
+    <MESSAGE value="RandomWalker.java added&#10;RandomWalkers.java added&#10;RandomWalkerTwo.java  added&#10;BandMatrix.java added&#10;GeneralizedHarmonic.java added" />
+    <MESSAGE value="ArrayCompile.java added&#10;ArrayInit.java added&#10;BooleanProduct.java  added&#10;CouponCollector.java added" />
+    <MESSAGE value="EuclideanDistance.java added&#10;Reverse.java added" />
+    <option name="LAST_COMMIT_MESSAGE" value="EuclideanDistance.java added&#10;Reverse.java added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,6 +472,16 @@
           <url>file://$PROJECT_DIR$/src/com/Conditionals/ReverseAString.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Conditionals/LoanPayments.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Conditionals/GCD.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
