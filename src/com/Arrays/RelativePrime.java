@@ -23,11 +23,10 @@ public class RelativePrime {
             for(int j = 0 ; j< N; j++) a[i][j] = true;
         }
 
-        for (int i = 1; i < N; i++) {
-            for (int j = 1; j < N; j++) {
+        for (int i = 2; i < N; i++) {
+            for (int j = 2; j < N; j++) {
                 rem = i % j;
                 if (rem == 0) a[i][j] = false;
-                if (rem == 0 && j == 1) a[i][j] = true;
                 else {
                     while (rem != 0) {
                         if (rem == 1) {
@@ -43,9 +42,9 @@ public class RelativePrime {
             }
         }
 
-        for (int i = 1; i<N ; i++){
+        for (int i = 2; i<N ; i++){
             System.out.println();
-            for (int j = 1; j<N ; j++){
+            for (int j = 2; j<N ; j++){
                 if (a[i][j]) System.out.print(i +","+ j + "*  ");
                 else System.out.print(i +","+ j + "   ");
             }

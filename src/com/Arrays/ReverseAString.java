@@ -19,7 +19,8 @@ public class ReverseAString {
 
             temp = userWord.charAt(i);
 
-         //   userWord.charAt(i) = userWord.charAt(userWord.length()-1);
+      //   userWord.charAt(i) = userWord.charAt(userWord.length()-1 - i);
+        //  userWord.charAt((userWord.length()-1)- i) = temp ;
 
         }
 
