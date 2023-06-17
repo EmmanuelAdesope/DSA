@@ -1,10 +1,9 @@
 package com.Arrays;
 /* This program calculates the probability that a group of people will hear a rumor. No persons must hear the rumor more than
 *  once. It also calculates the number of people that heard the rumor.
-*  It involves creating a boolean array found then using the index of the string array
-* as reference point to check if any of the guests have been spoken to
+*  It involves creating a boolean array found with the same length as number of guests
+*  in the party. and then using the index of the string array as reference point to check if any of the guests have been spoken to.
 * */
-
 
 public class Rumors {
 
