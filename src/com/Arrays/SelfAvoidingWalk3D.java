@@ -37,32 +37,32 @@ if(p[x-1][y][z]&& p[x+1][y][z]&& p[x-1][y-1][z]&& p[x-1][y+1][z]&& p[x][y][z-1]&
 
         double r = Math.random();
 
-    if (r<0.038) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&& (!p[x-1][y][z]))x--; escapePaths++;}
-    if (r<0.076) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1 && (!p[x][y-1][z-1]))y--;z--; escapePaths++;}
-    if(r<0.114)  {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1 && (!p[x+1][y][z]))x++;escapePaths++;}
-    if(r<0.152) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1 &&(!p[x+1][y-1][z]))x++; y--; escapePaths++;}
-    if(r<0.19)  {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1 && (!p[x+1][y][z+1]))x++;z++; escapePaths++; }
-    if(r<0.228){ if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y-1][z]))x--;y--; escapePaths++;}
-    if(r<0.266) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y-1][z+1]))y--;z++;escapePaths++;}
-    if(r<0.304) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y][z+1]))z++; escapePaths++;}
-    if(r<0.342) {if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y+1][z]))y++;escapePaths++;}
-    if(r<0.38){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y-1][z]))y--;escapePaths++;}
-    if(r<0.418){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y+1][z]))x--;y++;escapePaths++;}
-    if(r<0.456){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x+1][y+1][z]))x++;y++;escapePaths++;}
-    if(r<0.494){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y-1][z+1]))x--;y--;z++;escapePaths++;}
-    if(r<0.532){ if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x+1][y-1][z+1]))x++;y--;z++;escapePaths++;}
-    if(r<0.57){if  (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y+1][z+1]))x--;y++;z++; escapePaths++;}
-    if(r<0.608){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y][z-1]))z--;escapePaths++;}
-    if(r<0.646){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y-1][z-1]))x--;y--;z--; escapePaths++;}
-    if(r<0.684){ if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y+1][z-1]))x--;y++;z--;escapePaths++;}
-    if(r<0.722){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x+1][y-1][z-1]))x++;y--;z--;escapePaths++;}
-    if(r<0.76){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x+1][y][z-1]))x++;z--;escapePaths++;}
-    if(r<0.798){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y][z-1]))x--;z--;escapePaths++;}
-    if(r<0.836){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x-1][y][z+1]))x--;z++;escapePaths++;}
-    if(r<0.874){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&& (!p[x+1][y+1][z+1]))x++;y++;z++;escapePaths++;}
-    if(r<0.912){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x+1][y+1][z-1]))x++;y++;z--;escapePaths++;}
-    if(r<0.95){if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1&&(!p[x][y+1][z+1]))y++;z++;escapePaths++;}
-    if(r<1.00) { if (x>0 && x < N -1 && y>0 && y<N-1 && z>0 && z<N-1 && (!p[x][y+1][z-1]))y++;z--;escapePaths++;}
+    if (r<0.038) { x--; escapePaths++;}
+    else if (r<0.076) {y--;z--; escapePaths++;}
+    else if(r<0.114)  {x++;escapePaths++;}
+    else if(r<0.152) {x++; y--; escapePaths++;}
+    else if(r<0.19)  {x++;z++; escapePaths++; }
+    else if(r<0.228) {x--;y--; escapePaths++;}
+    else if(r<0.266) {y--;z++;escapePaths++;}
+    else if(r<0.304) {z++; escapePaths++;}
+    else if(r<0.342) {y++;escapePaths++;}
+    else if(r<0.38){y--;escapePaths++;}
+    else if(r<0.418){x--;y++;escapePaths++;}
+    else if(r<0.456){x++;y++;escapePaths++;}
+    else if(r<0.494){x--;y--;z++;escapePaths++;}
+    else if(r<0.532){x++;y--;z++;escapePaths++;}
+    else if(r<0.57){x--;y++;z++; escapePaths++;}
+    else if(r<0.608){z--;escapePaths++;}
+    else if(r<0.646){x--;y--;z--; escapePaths++;}
+    else if(r<0.684){x--;y++;z--;escapePaths++;}
+    else if(r<0.722){x++;y--;z--;escapePaths++;}
+    else if(r<0.76){x++;z--;escapePaths++;}
+    else if(r<0.798){x--;z--;escapePaths++;}
+    else if(r<0.836){x--;z++;escapePaths++;}
+    else if(r<0.874){x++;y++;z++;escapePaths++;}
+    else if(r<0.912){x++;y++;z--;escapePaths++;}
+    else if(r<0.95){y++;z++;escapePaths++;}
+    else if(r<1.00) {y++;z--;escapePaths++;}
             }
 
 
