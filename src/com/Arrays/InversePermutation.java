@@ -14,13 +14,27 @@ public class InversePermutation {
 
         int N = input.nextInt();
 
+        System.out.println("You are required to enter  " + N +" integer(s) from the command line");
         int a [] = new int[N];
         int b [] = new int[N];
+        boolean [] exist = new boolean[N];
+        int j = 1;
 
-        for (int i = 0; i< N; i++){
 
-                 System.out.println("Enter any integer from 0 to "+ N +" from the command line ");
-                 a[i]= input.nextInt();
+        for (int i = 0; i< N; i++, j++){
+
+            System.out.println("Enter integer number "+ j  + " to be chosen from  0  to "+ (N-1) +" from the command line ");
+
+            a[i]= input.nextInt();
+
+            if(a[i]<0 || a[i] >=N  || exist[a[i]]){ //checks if it's a valid permutation
+
+                System.out.println("This is not a valid permutation, Re-enter value");
+                a[i] = input.nextInt();
+                 }
+
+                 exist[a[i]] = true;
+
              }
 
         for(int i = 0; i<N ; i++){
@@ -28,22 +42,12 @@ public class InversePermutation {
             b[a[i]] = i;
         }
 
-        for(int i = 0; i<N ; i++){
-
-            a[b[i]] = b[a[i]];
-        }
 
         for(int i = 0; i<N ; i++){
 
             System.out.print(b[i]+ " ");
         }
 
-        System.out.println();
-
-        for(int i = 0; i<N ; i++){
-
-            System.out.print(a[i]+ " ");
-        }
 
 
     }
