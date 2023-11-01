@@ -11,28 +11,42 @@ public class DiscreteDistribution {
     public static void main(String[] args) {
 
 
-
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the number of integers you want to input at command line");
+        System.out.println("Enter the total number of times the sampling will be done");
 
-        int n = input.nextInt();
+        int m = input.nextInt();
+
+        System.out.println("Enter the length of the array");
+        int n  = input.nextInt();
 
         int [] a = new int[n];
+        int [] S = new int[n];
+        int total = 0;
 
-        for(int i = 0; i<n ; i++) {
 
-            System.out.println("Enter integer for position "+i);
-             a[i] = input.nextInt();
+        for (int i = 0; i<a.length; i++)
+        {
+            a[i] = input.nextInt();
+            total = total + a[i];
+            S[i] = total;
         }
 
 
-        for(int i = 1; i<n; i++){
-            System.out.println();
-            for(int j = 0 ; j<i; j++){
-                System.out.print(a[i]+" ");
+        System.out.println(S[a.length-1]);   // prints out the sum
+
+        for(int i = 0; i<m; i++) {
+
+            int r = (int) (Math.random() * (S[a.length-1]));
+
+            for (int j = 0; j < a.length; j++) {
+
+                if (r >= S[j] && r < S[j + 1]) System.out.print((j + 1) + " ");
 
             }
+
+        }
+
         }
     }
-}
+

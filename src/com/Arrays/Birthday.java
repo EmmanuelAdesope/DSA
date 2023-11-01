@@ -12,7 +12,7 @@ public class Birthday {
 
         while(true){
 
-            int r = (int) (Math.random()*365);
+            int r = (int) (Math.random()*(365)+ 1);
 
             match[r] = true;
 

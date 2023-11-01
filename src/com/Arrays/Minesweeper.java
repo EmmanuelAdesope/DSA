@@ -31,7 +31,6 @@ public class Minesweeper {
             for(int j = 1; j<=N; j++){
 
                 if (Math.random()<p)mine[i][j]=true;
-                else mine[i][j]=false;
             }
 
         for(int i= 1; i<=M; i++){     //prints the array of minesweeper
